@@ -162,6 +162,10 @@ uint16_t ModbusMaster::receive(void)
 }
 
 
+void ModbusMaster::setSlaveID(uint8_t slave)
+{
+  _u8MBSlave = slave;
+}
 
 
 

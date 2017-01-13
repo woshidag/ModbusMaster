@@ -201,7 +201,7 @@ class ModbusMaster
     void send(uint32_t);
     uint8_t available(void);
     uint16_t receive(void);
-    
+    void setSlaveID(uint8_t);
     
     uint8_t  readCoils(uint16_t, uint16_t);
     uint8_t  readDiscreteInputs(uint16_t, uint16_t);
